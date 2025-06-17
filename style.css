@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey700: hsl(0, 0%, 20%);
+    --grey800: hsl(0, 0%, 12%);
+    --grey900: hsl(0, 0%, 8%);
+}
+
+button {
+    background-color: var(--grey700);
+    color: var(--white);
+    inline-size: 15rem;
+    block-size: 2rem;
+    border-radius: 0.5em;
+    border: none;
+    font-weight: 600;
+    /* font-size: 0.73rem; */
+}
+button:hover {
+    color: var(--green);
+    background-color: var(--grey900);
+    cursor: pointer;
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', serif;
+    background-color: var(--grey900);
+    overflow: hidden;
+}
+
+.container {
+    inline-size: 18rem;
+    block-size: 26rem;
+    background-color: var(--grey800);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 0.875rem;
+}
+
+.avatar {
+    width: 5em;
+    height: 5em;
+    border-radius: 3rem;
+    margin-block-end: 0.4rem;
+}
+
+.name {
+    font-size: 1.25rem;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.38rem;
+    color: var(--white);
+    font-weight: 600;
+}
+
+.address {
+    color: var(--green);
+    margin-block-start: 0;
+    font-size: 0.73rem;
+    font-weight: 400;
+}
+
+.bio {
+    color: var(--white);
+    margin-block-start: 0.2rem;
+    margin-block-end: 0;
+    font-size: 0.73rem;
+}
+
+ul {
+    list-style: none;
+    padding: 1rem;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+li {
+    padding: 0.3rem;
+}
+
+.attribution {
+    padding-block-start: 1rem;
+    font-size: 11px;
+    text-align: center;
+    color: var(--green);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
