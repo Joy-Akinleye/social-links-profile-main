@@ -47,7 +47,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 0.5rem;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     font-size: 0.875rem;
 }
 
@@ -93,7 +93,7 @@ li {
 
 .attribution {
     padding-block-start: 1rem;
-    font-size: 11px;
+    font-size: 0.6875;
     text-align: center;
     color: var(--green);
 }
